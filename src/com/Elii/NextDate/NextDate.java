@@ -4,18 +4,18 @@ public class NextDate {
 
 	public static String forNextDay(int year,int month,int day) {
 		if(year<1900||year>2050) {
-			return "ÄêÊäÈë´íÎó";
+			return "å¹´è¾“å…¥é”™è¯¯";
 		}
 		if(month<1||month>12) {
-			return "ÔÂÊäÈë´íÎó";
+			return "æœˆè¾“å…¥é”™è¯¯";
 		}
 		if(month==1||month==3||month==5||month==7||month==8||month==10||month==12) {
 			if(day>31||day<1)
-				return "ÈÕÊäÈë´íÎó";
+				return "æ—¥è¾“å…¥é”™è¯¯";
 		}
 		if(month==4||month==6||month==9||month==11) {
 			if(day>30||day<1)
-				return "ÈÕÊäÈë´íÎó";
+				return "æ—¥è¾“å…¥é”™è¯¯";
 		}
 		if((year%4==0&&year%100!=0)||(year%400==0))
 		{
@@ -23,7 +23,7 @@ public class NextDate {
 			{
 				if(day>29)
 				{
-					return "ÈÕÊäÈë´íÎó";
+					return "æ—¥è¾“å…¥é”™è¯¯";
 				}
 				else
 				{
@@ -43,7 +43,7 @@ public class NextDate {
 			{
 				if(day>28)
 				{
-					return "ÈÕÊäÈë´íÎó";
+					return "æ—¥è¾“å…¥é”™è¯¯";
 				}
 				else
 				{

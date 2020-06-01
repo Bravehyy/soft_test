@@ -1,46 +1,39 @@
 package com.Elii.Triangle;
-import static org.junit.Assert.*;
 
-import java.util.Arrays;
-import java.util.Collection;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import org.junit.Before;
-import org.junit.Test;
-import org.junit.runner.RunWith;
-import org.junit.runners.Parameterized;
-import org.junit.runners.Parameterized.Parameters;
+import org.junit.jupiter.api.DisplayName;
+import org.junit.jupiter.params.ParameterizedTest;
+import org.junit.jupiter.params.provider.CsvFileSource;
 
-@RunWith(Parameterized.class)
 public class TriangleTest {
-	private int a, b, c;
-	private String type;
 
-	@Before
-	public void setUp() throws Exception {
+
+	@ParameterizedTest
+	@DisplayName("三角形边界值分析测试")
+	@CsvFileSource(resources="/com/Elii/Triangle/三角形边界值分析测试用例.csv",numLinesToSkip=1)
+	void testNormalBoundary(Integer num,Integer a,Integer b,Integer c,String type) {
+		assertEquals(Triangle.classify(a, b, c),type);
 	}
 
-	public TriangleTest(int a, int b, int c, String type) {
-		this.a = a;
-		this.b = b;
-		this.c = c;
-		this.type = type;
+	@ParameterizedTest
+	@DisplayName("三角形健壮性测试")
+	@CsvFileSource(resources="/com/Elii/Triangle/三角形健壮性测试用例.csv",numLinesToSkip=1)
+	void testRobustBoundary(Integer num,Integer a,Integer b,Integer c,String type) {
+		assertEquals(Triangle.classify(a, b, c),type);
 	}
-
-	@Parameters
-	public static Collection<Object[]> getData() {
-		return Arrays.asList(
-				new Object[][] { 
-					{ 2, 4, 5, "һ��������" }, 
-					{ 3, 3, 4, "����������" }, 
-					{ 4, 4, 4, "�ȱ�������" }, 
-					{ 2, 2, 5, "��������" },
-					{ 2, 2, 4, "��������" }
-		});
+	
+	@ParameterizedTest
+	@DisplayName("三角形最坏情况测试")
+	@CsvFileSource(resources="/com/Elii/Triangle/三角形最坏情况测试用例.csv",numLinesToSkip=1)
+	void testWorstCaseBoundary(Integer num,Integer a,Integer b,Integer c,String type) {
+		assertEquals(Triangle.classify(a, b, c),type);
 	}
-
-	@Test
-	public void testClassify() {
-		assertEquals(this.type, Triangle.classify(a, b, c));
+	
+	@ParameterizedTest
+	@DisplayName("三角形健壮最坏情况测试")
+	@CsvFileSource(resources="/com/Elii/Triangle/三角形健壮最坏情况测试用例.csv",numLinesToSkip=1)
+	void testRobustWorstCaseBoundary(Integer num,Integer a,Integer b,Integer c,String type) {
+		assertEquals(Triangle.classify(a, b, c),type);
 	}
-
 }

@@ -7,15 +7,15 @@ public class Money {
 		double barrelPrice=25;
 		double money;
 		if(num_lock>70) {
-			System.out.println("枪机数量超限！");
+			System.out.println("鏋満鏁伴噺瓒呴檺");
 			return 0;
 		}
 		if(num_stock>80) {
-			System.out.println("枪托数量超限！");
+			System.out.println("鏋墭鏁伴噺瓒呴檺");
 			return 0;
 		}
 		if(num_barrel>90) {
-			System.out.println("枪管数量超限！");
+			System.out.println("鏋鏁伴噺瓒呴檺");
 			return 0;
 		}
 		double total_money=num_lock*lockPrice+num_stock*stockPrice+num_barrel*barrelPrice;

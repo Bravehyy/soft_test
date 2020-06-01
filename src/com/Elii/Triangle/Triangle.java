@@ -4,15 +4,15 @@ public class Triangle {
 
 	public static String classify(int a,int b,int c) {
 		if((a<1||a>100)||(b<1||b>100)||(c<1||c>100)) {
-			return "ÊäÈë´íÎó";
+			return "è¾“å…¥é”™è¯¯";
 		}else if(!((a+b>c)&&(a+c>b)&&(c+b>a))){
-			return "·ÇÈı½ÇĞÎ";
+			return "éä¸‰è§’å½¢";
 		}else if(a==b&&a==c&&b==c) {
-			return "µÈ±ßÈı½ÇĞÎ";
+			return "ç­‰è¾¹ä¸‰è§’å½¢";
 		}else if(a!=b&&a!=c&&b!=c) {
-			return "Ò»°ãÈı½ÇĞÎ";
+			return "ä¸€èˆ¬ä¸‰è§’å½¢";
 		}else {
-			return "µÈÑüÈı½ÇĞÎ";
+			return "ç­‰è…°ä¸‰è§’å½¢";
 		}
 		
 	}
