@@ -64,7 +64,7 @@ public class HoldingTime {
 		//将位于转换的时间段内的时间都看作已经转换之后的
 		if(cal1.get(Calendar.MONTH) ==Calendar.OCTOBER && cal1.get(Calendar.DATE) >= 25 && cal1.get(Calendar.DATE) <= 31 && cal1.get(Calendar.DAY_OF_WEEK)==Calendar.SUNDAY)
 		{
-			System.out.println("需要转换1");
+			System.out.println("需要转换2");
 			if(cal1.get(Calendar.HOUR_OF_DAY) ==2){
 						minute +=60;
 			}

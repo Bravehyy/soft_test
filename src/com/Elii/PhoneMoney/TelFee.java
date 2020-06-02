@@ -23,6 +23,6 @@ public class TelFee {
 	}
 	
 	public static void main(String[] args) {
-		System.out.println(TelFee.Fee("20201025025920", "20201025030612"));
+		System.out.println(TelFee.Fee("20201025015922", "20201025030519"));
 	}
 }
