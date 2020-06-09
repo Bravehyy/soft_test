@@ -1,0 +1,162 @@
+src/main/java/Experiment6/App.java:4:	PackageCase: Package name contains upper case characters
+src/main/java/Experiment6/App.java:4:	PackageCase: Package name contains upper case characters
+src/main/java/Experiment6/App.java:6:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/Experiment6/App.java:6:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/Experiment6/App.java:6:	CommentRequired: Class comments are required
+src/main/java/Experiment6/App.java:6:	CommentRequired: Class comments are required
+src/main/java/Experiment6/App.java:6:	ShortClassName: Avoid short class names like App
+src/main/java/Experiment6/App.java:6:	ShortClassName: Avoid short class names like App
+src/main/java/Experiment6/App.java:7:	CommentRequired: Public method and constructor comments are required
+src/main/java/Experiment6/App.java:7:	CommentRequired: Public method and constructor comments are required
+src/main/java/Experiment6/App.java:11:	CommentRequired: Public method and constructor comments are required
+src/main/java/Experiment6/App.java:11:	CommentRequired: Public method and constructor comments are required
+src/main/java/Experiment6/App.java:11:	MethodArgumentCouldBeFinal: Parameter 'args' is not assigned and could be declared final
+src/main/java/Experiment6/App.java:11:	MethodArgumentCouldBeFinal: Parameter 'args' is not assigned and could be declared final
+src/main/java/Experiment6/App.java:12:	SystemPrintln: System.out.println is used
+src/main/java/Experiment6/App.java:12:	SystemPrintln: System.out.println is used
+src/main/java/Experiment6/Triangle.java:1:	PackageCase: Package name contains upper case characters
+src/main/java/Experiment6/Triangle.java:1:	PackageCase: Package name contains upper case characters
+src/main/java/Experiment6/Triangle.java:3:	ClassNamingConventions: The utility class name 'Triangle' doesn't match '[A-Z][a-zA-Z0-9]+(Utils?|Helper|Constants)'
+src/main/java/Experiment6/Triangle.java:3:	ClassNamingConventions: The utility class name 'Triangle' doesn't match '[A-Z][a-zA-Z0-9]+(Utils?|Helper|Constants)'
+src/main/java/Experiment6/Triangle.java:3:	CommentRequired: Class comments are required
+src/main/java/Experiment6/Triangle.java:3:	CommentRequired: Class comments are required
+src/main/java/Experiment6/Triangle.java:3:	UseUtilityClass: All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+src/main/java/Experiment6/Triangle.java:3:	UseUtilityClass: All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+src/main/java/Experiment6/Triangle.java:5:	CommentRequired: Public method and constructor comments are required
+src/main/java/Experiment6/Triangle.java:5:	CommentRequired: Public method and constructor comments are required
+src/main/java/Experiment6/Triangle.java:5:	CyclomaticComplexity: The method 'classify(int, int, int)' has a cyclomatic complexity of 16.
+src/main/java/Experiment6/Triangle.java:5:	CyclomaticComplexity: The method 'classify(int, int, int)' has a cyclomatic complexity of 16.
+src/main/java/Experiment6/Triangle.java:5:	MethodArgumentCouldBeFinal: Parameter 'a' is not assigned and could be declared final
+src/main/java/Experiment6/Triangle.java:5:	MethodArgumentCouldBeFinal: Parameter 'a' is not assigned and could be declared final
+src/main/java/Experiment6/Triangle.java:5:	MethodArgumentCouldBeFinal: Parameter 'b' is not assigned and could be declared final
+src/main/java/Experiment6/Triangle.java:5:	MethodArgumentCouldBeFinal: Parameter 'b' is not assigned and could be declared final
+src/main/java/Experiment6/Triangle.java:5:	MethodArgumentCouldBeFinal: Parameter 'c' is not assigned and could be declared final
+src/main/java/Experiment6/Triangle.java:5:	MethodArgumentCouldBeFinal: Parameter 'c' is not assigned and could be declared final
+src/main/java/Experiment6/Triangle.java:5:	ShortVariable: Avoid variables with short names like a
+src/main/java/Experiment6/Triangle.java:5:	ShortVariable: Avoid variables with short names like a
+src/main/java/Experiment6/Triangle.java:5:	ShortVariable: Avoid variables with short names like b
+src/main/java/Experiment6/Triangle.java:5:	ShortVariable: Avoid variables with short names like b
+src/main/java/Experiment6/Triangle.java:5:	ShortVariable: Avoid variables with short names like c
+src/main/java/Experiment6/Triangle.java:5:	ShortVariable: Avoid variables with short names like c
+src/main/java/Experiment6/Triangle.java:6:	UselessParentheses: Useless parentheses.
+src/main/java/Experiment6/Triangle.java:6:	UselessParentheses: Useless parentheses.
+src/main/java/Experiment6/Triangle.java:6:	UselessParentheses: Useless parentheses.
+src/main/java/Experiment6/Triangle.java:6:	UselessParentheses: Useless parentheses.
+src/main/java/Experiment6/Triangle.java:6:	UselessParentheses: Useless parentheses.
+src/main/java/Experiment6/Triangle.java:6:	UselessParentheses: Useless parentheses.
+src/main/java/Experiment6/Triangle.java:7:	OnlyOneReturn: A method should have only one exit point, and that should be the last statement in the method
+src/main/java/Experiment6/Triangle.java:7:	OnlyOneReturn: A method should have only one exit point, and that should be the last statement in the method
+src/main/java/Experiment6/Triangle.java:8:	ConfusingTernary: Avoid if (x != y) ..; else ..;
+src/main/java/Experiment6/Triangle.java:8:	ConfusingTernary: Avoid if (x != y) ..; else ..;
+src/main/java/Experiment6/Triangle.java:8:	UselessParentheses: Useless parentheses.
+src/main/java/Experiment6/Triangle.java:8:	UselessParentheses: Useless parentheses.
+src/main/java/Experiment6/Triangle.java:8:	UselessParentheses: Useless parentheses.
+src/main/java/Experiment6/Triangle.java:8:	UselessParentheses: Useless parentheses.
+src/main/java/Experiment6/Triangle.java:8:	UselessParentheses: Useless parentheses.
+src/main/java/Experiment6/Triangle.java:8:	UselessParentheses: Useless parentheses.
+src/main/java/Experiment6/Triangle.java:9:	OnlyOneReturn: A method should have only one exit point, and that should be the last statement in the method
+src/main/java/Experiment6/Triangle.java:9:	OnlyOneReturn: A method should have only one exit point, and that should be the last statement in the method
+src/main/java/Experiment6/Triangle.java:11:	OnlyOneReturn: A method should have only one exit point, and that should be the last statement in the method
+src/main/java/Experiment6/Triangle.java:11:	OnlyOneReturn: A method should have only one exit point, and that should be the last statement in the method
+src/main/java/Experiment6/Triangle.java:12:	ConfusingTernary: Avoid if (x != y) ..; else ..;
+src/main/java/Experiment6/Triangle.java:12:	ConfusingTernary: Avoid if (x != y) ..; else ..;
+src/main/java/Experiment6/Triangle.java:13:	OnlyOneReturn: A method should have only one exit point, and that should be the last statement in the method
+src/main/java/Experiment6/Triangle.java:13:	OnlyOneReturn: A method should have only one exit point, and that should be the last statement in the method
+src/test/java/Experiment6/AppTest.java:4:	PackageCase: Package name contains upper case characters
+src/test/java/Experiment6/AppTest.java:4:	PackageCase: Package name contains upper case characters
+src/test/java/Experiment6/AppTest.java:9:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/test/java/Experiment6/AppTest.java:9:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/test/java/Experiment6/AppTest.java:9:	CommentRequired: Class comments are required
+src/test/java/Experiment6/AppTest.java:9:	CommentRequired: Class comments are required
+src/test/java/Experiment6/AppTest.java:10:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the appHasAGreeting method if you want a default access modifier
+src/test/java/Experiment6/AppTest.java:10:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the appHasAGreeting method if you want a default access modifier
+src/test/java/Experiment6/AppTest.java:10:	DefaultPackage: Use explicit scoping instead of the default package private level
+src/test/java/Experiment6/AppTest.java:10:	DefaultPackage: Use explicit scoping instead of the default package private level
+src/test/java/Experiment6/AppTest.java:11:	LocalVariableCouldBeFinal: Local variable 'classUnderTest' could be declared final
+src/test/java/Experiment6/AppTest.java:11:	LocalVariableCouldBeFinal: Local variable 'classUnderTest' could be declared final
+src/test/java/Experiment6/TriangleTest.java:1:	PackageCase: Package name contains upper case characters
+src/test/java/Experiment6/TriangleTest.java:1:	PackageCase: Package name contains upper case characters
+src/test/java/Experiment6/TriangleTest.java:9:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/test/java/Experiment6/TriangleTest.java:9:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/test/java/Experiment6/TriangleTest.java:9:	CommentRequired: Class comments are required
+src/test/java/Experiment6/TriangleTest.java:9:	CommentRequired: Class comments are required
+src/test/java/Experiment6/TriangleTest.java:12:	DefaultPackage: Use explicit scoping instead of the default package private level
+src/test/java/Experiment6/TriangleTest.java:12:	DefaultPackage: Use explicit scoping instead of the default package private level
+src/test/java/Experiment6/TriangleTest.java:15:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the testNormalBoundary method if you want a default access modifier
+src/test/java/Experiment6/TriangleTest.java:15:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the testNormalBoundary method if you want a default access modifier
+src/test/java/Experiment6/TriangleTest.java:15:	MethodArgumentCouldBeFinal: Parameter 'a' is not assigned and could be declared final
+src/test/java/Experiment6/TriangleTest.java:15:	MethodArgumentCouldBeFinal: Parameter 'a' is not assigned and could be declared final
+src/test/java/Experiment6/TriangleTest.java:15:	MethodArgumentCouldBeFinal: Parameter 'b' is not assigned and could be declared final
+src/test/java/Experiment6/TriangleTest.java:15:	MethodArgumentCouldBeFinal: Parameter 'b' is not assigned and could be declared final
+src/test/java/Experiment6/TriangleTest.java:15:	MethodArgumentCouldBeFinal: Parameter 'c' is not assigned and could be declared final
+src/test/java/Experiment6/TriangleTest.java:15:	MethodArgumentCouldBeFinal: Parameter 'c' is not assigned and could be declared final
+src/test/java/Experiment6/TriangleTest.java:15:	MethodArgumentCouldBeFinal: Parameter 'num' is not assigned and could be declared final
+src/test/java/Experiment6/TriangleTest.java:15:	MethodArgumentCouldBeFinal: Parameter 'num' is not assigned and could be declared final
+src/test/java/Experiment6/TriangleTest.java:15:	MethodArgumentCouldBeFinal: Parameter 'type' is not assigned and could be declared final
+src/test/java/Experiment6/TriangleTest.java:15:	MethodArgumentCouldBeFinal: Parameter 'type' is not assigned and could be declared final
+src/test/java/Experiment6/TriangleTest.java:15:	ShortVariable: Avoid variables with short names like a
+src/test/java/Experiment6/TriangleTest.java:15:	ShortVariable: Avoid variables with short names like a
+src/test/java/Experiment6/TriangleTest.java:15:	ShortVariable: Avoid variables with short names like b
+src/test/java/Experiment6/TriangleTest.java:15:	ShortVariable: Avoid variables with short names like b
+src/test/java/Experiment6/TriangleTest.java:15:	ShortVariable: Avoid variables with short names like c
+src/test/java/Experiment6/TriangleTest.java:15:	ShortVariable: Avoid variables with short names like c
+src/test/java/Experiment6/TriangleTest.java:19:	DefaultPackage: Use explicit scoping instead of the default package private level
+src/test/java/Experiment6/TriangleTest.java:19:	DefaultPackage: Use explicit scoping instead of the default package private level
+src/test/java/Experiment6/TriangleTest.java:22:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the testRobustBoundary method if you want a default access modifier
+src/test/java/Experiment6/TriangleTest.java:22:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the testRobustBoundary method if you want a default access modifier
+src/test/java/Experiment6/TriangleTest.java:22:	MethodArgumentCouldBeFinal: Parameter 'a' is not assigned and could be declared final
+src/test/java/Experiment6/TriangleTest.java:22:	MethodArgumentCouldBeFinal: Parameter 'a' is not assigned and could be declared final
+src/test/java/Experiment6/TriangleTest.java:22:	MethodArgumentCouldBeFinal: Parameter 'b' is not assigned and could be declared final
+src/test/java/Experiment6/TriangleTest.java:22:	MethodArgumentCouldBeFinal: Parameter 'b' is not assigned and could be declared final
+src/test/java/Experiment6/TriangleTest.java:22:	MethodArgumentCouldBeFinal: Parameter 'c' is not assigned and could be declared final
+src/test/java/Experiment6/TriangleTest.java:22:	MethodArgumentCouldBeFinal: Parameter 'c' is not assigned and could be declared final
+src/test/java/Experiment6/TriangleTest.java:22:	MethodArgumentCouldBeFinal: Parameter 'num' is not assigned and could be declared final
+src/test/java/Experiment6/TriangleTest.java:22:	MethodArgumentCouldBeFinal: Parameter 'num' is not assigned and could be declared final
+src/test/java/Experiment6/TriangleTest.java:22:	MethodArgumentCouldBeFinal: Parameter 'type' is not assigned and could be declared final
+src/test/java/Experiment6/TriangleTest.java:22:	MethodArgumentCouldBeFinal: Parameter 'type' is not assigned and could be declared final
+src/test/java/Experiment6/TriangleTest.java:22:	ShortVariable: Avoid variables with short names like a
+src/test/java/Experiment6/TriangleTest.java:22:	ShortVariable: Avoid variables with short names like a
+src/test/java/Experiment6/TriangleTest.java:22:	ShortVariable: Avoid variables with short names like b
+src/test/java/Experiment6/TriangleTest.java:22:	ShortVariable: Avoid variables with short names like b
+src/test/java/Experiment6/TriangleTest.java:22:	ShortVariable: Avoid variables with short names like c
+src/test/java/Experiment6/TriangleTest.java:22:	ShortVariable: Avoid variables with short names like c
+src/test/java/Experiment6/TriangleTest.java:26:	DefaultPackage: Use explicit scoping instead of the default package private level
+src/test/java/Experiment6/TriangleTest.java:26:	DefaultPackage: Use explicit scoping instead of the default package private level
+src/test/java/Experiment6/TriangleTest.java:29:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the testWorstCaseBoundary method if you want a default access modifier
+src/test/java/Experiment6/TriangleTest.java:29:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the testWorstCaseBoundary method if you want a default access modifier
+src/test/java/Experiment6/TriangleTest.java:29:	MethodArgumentCouldBeFinal: Parameter 'a' is not assigned and could be declared final
+src/test/java/Experiment6/TriangleTest.java:29:	MethodArgumentCouldBeFinal: Parameter 'a' is not assigned and could be declared final
+src/test/java/Experiment6/TriangleTest.java:29:	MethodArgumentCouldBeFinal: Parameter 'b' is not assigned and could be declared final
+src/test/java/Experiment6/TriangleTest.java:29:	MethodArgumentCouldBeFinal: Parameter 'b' is not assigned and could be declared final
+src/test/java/Experiment6/TriangleTest.java:29:	MethodArgumentCouldBeFinal: Parameter 'c' is not assigned and could be declared final
+src/test/java/Experiment6/TriangleTest.java:29:	MethodArgumentCouldBeFinal: Parameter 'c' is not assigned and could be declared final
+src/test/java/Experiment6/TriangleTest.java:29:	MethodArgumentCouldBeFinal: Parameter 'num' is not assigned and could be declared final
+src/test/java/Experiment6/TriangleTest.java:29:	MethodArgumentCouldBeFinal: Parameter 'num' is not assigned and could be declared final
+src/test/java/Experiment6/TriangleTest.java:29:	MethodArgumentCouldBeFinal: Parameter 'type' is not assigned and could be declared final
+src/test/java/Experiment6/TriangleTest.java:29:	MethodArgumentCouldBeFinal: Parameter 'type' is not assigned and could be declared final
+src/test/java/Experiment6/TriangleTest.java:29:	ShortVariable: Avoid variables with short names like a
+src/test/java/Experiment6/TriangleTest.java:29:	ShortVariable: Avoid variables with short names like a
+src/test/java/Experiment6/TriangleTest.java:29:	ShortVariable: Avoid variables with short names like b
+src/test/java/Experiment6/TriangleTest.java:29:	ShortVariable: Avoid variables with short names like b
+src/test/java/Experiment6/TriangleTest.java:29:	ShortVariable: Avoid variables with short names like c
+src/test/java/Experiment6/TriangleTest.java:29:	ShortVariable: Avoid variables with short names like c
+src/test/java/Experiment6/TriangleTest.java:33:	DefaultPackage: Use explicit scoping instead of the default package private level
+src/test/java/Experiment6/TriangleTest.java:33:	DefaultPackage: Use explicit scoping instead of the default package private level
+src/test/java/Experiment6/TriangleTest.java:36:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the testRobustWorstCaseBoundary method if you want a default access modifier
+src/test/java/Experiment6/TriangleTest.java:36:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the testRobustWorstCaseBoundary method if you want a default access modifier
+src/test/java/Experiment6/TriangleTest.java:36:	MethodArgumentCouldBeFinal: Parameter 'a' is not assigned and could be declared final
+src/test/java/Experiment6/TriangleTest.java:36:	MethodArgumentCouldBeFinal: Parameter 'a' is not assigned and could be declared final
+src/test/java/Experiment6/TriangleTest.java:36:	MethodArgumentCouldBeFinal: Parameter 'b' is not assigned and could be declared final
+src/test/java/Experiment6/TriangleTest.java:36:	MethodArgumentCouldBeFinal: Parameter 'b' is not assigned and could be declared final
+src/test/java/Experiment6/TriangleTest.java:36:	MethodArgumentCouldBeFinal: Parameter 'c' is not assigned and could be declared final
+src/test/java/Experiment6/TriangleTest.java:36:	MethodArgumentCouldBeFinal: Parameter 'c' is not assigned and could be declared final
+src/test/java/Experiment6/TriangleTest.java:36:	MethodArgumentCouldBeFinal: Parameter 'num' is not assigned and could be declared final
+src/test/java/Experiment6/TriangleTest.java:36:	MethodArgumentCouldBeFinal: Parameter 'num' is not assigned and could be declared final
+src/test/java/Experiment6/TriangleTest.java:36:	MethodArgumentCouldBeFinal: Parameter 'type' is not assigned and could be declared final
+src/test/java/Experiment6/TriangleTest.java:36:	MethodArgumentCouldBeFinal: Parameter 'type' is not assigned and could be declared final
+src/test/java/Experiment6/TriangleTest.java:36:	ShortVariable: Avoid variables with short names like a
+src/test/java/Experiment6/TriangleTest.java:36:	ShortVariable: Avoid variables with short names like a
+src/test/java/Experiment6/TriangleTest.java:36:	ShortVariable: Avoid variables with short names like b
+src/test/java/Experiment6/TriangleTest.java:36:	ShortVariable: Avoid variables with short names like b
+src/test/java/Experiment6/TriangleTest.java:36:	ShortVariable: Avoid variables with short names like c
+src/test/java/Experiment6/TriangleTest.java:36:	ShortVariable: Avoid variables with short names like c
