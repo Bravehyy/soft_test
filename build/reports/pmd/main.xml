@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd version="5.5.2" timestamp="2020-06-09T15:52:35.679">
+<file name="E:\eclipse-workspace\Experiment6\src\main\java\experiment6\App.java">
+<violation beginline="4" endline="4" begincolumn="9" endcolumn="19" rule="PackageNamingRule" ruleset="AlibabaJavaNaming" package="experiment6" class="App" priority="3">
+包名【experiment6】应全部小写
+</violation>
+<violation beginline="6" endline="14" begincolumn="8" endcolumn="1" rule="ClassMustHaveAuthorRule" ruleset="AlibabaJavaComments" package="experiment6" class="App" priority="3">
+【App】缺少包含@author的注释信息
+</violation>
+</file>
+<file name="E:\eclipse-workspace\Experiment6\src\main\java\experiment6\Triangle.java">
+<violation beginline="1" endline="1" begincolumn="9" endcolumn="19" rule="PackageNamingRule" ruleset="AlibabaJavaNaming" package="experiment6" class="Triangle" priority="3">
+包名【experiment6】应全部小写
+</violation>
+<violation beginline="3" endline="19" begincolumn="8" endcolumn="1" rule="CyclomaticComplexity" ruleset="Code Size" package="experiment6" class="Triangle" externalInfoUrl="https://pmd.github.io/pmd-5.5.2/pmd-java/rules/java/codesize.html#CyclomaticComplexity" priority="3">
+The class 'Triangle' has a Cyclomatic Complexity of 17 (Highest = 16).
+</violation>
+<violation beginline="3" endline="19" begincolumn="8" endcolumn="1" rule="ClassMustHaveAuthorRule" ruleset="AlibabaJavaComments" package="experiment6" class="Triangle" priority="3">
+【Triangle】缺少包含@author的注释信息
+</violation>
+<violation beginline="5" endline="18" begincolumn="23" endcolumn="9" rule="CyclomaticComplexity" ruleset="Code Size" package="experiment6" class="Triangle" method="classify" externalInfoUrl="https://pmd.github.io/pmd-5.5.2/pmd-java/rules/java/codesize.html#CyclomaticComplexity" priority="3">
+The method 'classify' has a Cyclomatic Complexity of 16.
+</violation>
+<violation beginline="7" endline="7" begincolumn="20" endcolumn="65" rule="AvoidComplexConditionRule" ruleset="AlibabaJavaFlowControl" package="experiment6" class="Triangle" method="classify" priority="3">
+请不要在条件中使用复杂的表达式。
+</violation>
+</file>
+<file name="E:\eclipse-workspace\Experiment6\src\main\java\experiment6\Virus.java">
+<violation beginline="1" endline="1" begincolumn="9" endcolumn="19" rule="PackageNamingRule" ruleset="AlibabaJavaNaming" package="experiment6" class="Virus" priority="3">
+包名【experiment6】应全部小写
+</violation>
+<violation beginline="3" endline="15" begincolumn="8" endcolumn="1" rule="ClassMustHaveAuthorRule" ruleset="AlibabaJavaComments" package="experiment6" class="Virus" priority="3">
+【Virus】缺少包含@author的注释信息
+</violation>
+</file>
+</pmd>

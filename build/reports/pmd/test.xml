@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd version="5.5.2" timestamp="2020-06-09T15:52:36.131">
+<file name="E:\eclipse-workspace\Experiment6\src\test\java\experiment6\AppTest.java">
+<violation beginline="4" endline="4" begincolumn="9" endcolumn="19" rule="PackageNamingRule" ruleset="AlibabaJavaNaming" package="experiment6" priority="3">
+包名【experiment6】应全部小写
+</violation>
+</file>
+<file name="E:\eclipse-workspace\Experiment6\src\test\java\experiment6\TriangleTest.java">
+<violation beginline="1" endline="1" begincolumn="9" endcolumn="19" rule="PackageNamingRule" ruleset="AlibabaJavaNaming" package="experiment6" class="TriangleTest" priority="3">
+包名【experiment6】应全部小写
+</violation>
+<violation beginline="9" endline="39" begincolumn="8" endcolumn="1" rule="ClassMustHaveAuthorRule" ruleset="AlibabaJavaComments" package="experiment6" class="TriangleTest" priority="3">
+【TriangleTest】缺少包含@author的注释信息
+</violation>
+</file>
+<file name="E:\eclipse-workspace\Experiment6\src\test\java\experiment6\VirusTest.java">
+<violation beginline="1" endline="1" begincolumn="9" endcolumn="19" rule="PackageNamingRule" ruleset="AlibabaJavaNaming" package="experiment6" class="VirusTest" priority="3">
+包名【experiment6】应全部小写
+</violation>
+<violation beginline="14" endline="41" begincolumn="8" endcolumn="1" rule="ClassMustHaveAuthorRule" ruleset="AlibabaJavaComments" package="experiment6" class="VirusTest" priority="3">
+【VirusTest】缺少包含@author的注释信息
+</violation>
+<violation beginline="15" endline="15" begincolumn="25" endcolumn="26" rule="BeanMembersShouldSerialize" ruleset="JavaBeans" package="experiment6" class="VirusTest" variable="c1" externalInfoUrl="https://pmd.github.io/pmd-5.5.2/pmd-java/rules/java/javabeans.html#BeanMembersShouldSerialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="15" endline="15" begincolumn="28" endcolumn="29" rule="BeanMembersShouldSerialize" ruleset="JavaBeans" package="experiment6" class="VirusTest" variable="c2" externalInfoUrl="https://pmd.github.io/pmd-5.5.2/pmd-java/rules/java/javabeans.html#BeanMembersShouldSerialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="15" endline="15" begincolumn="31" endcolumn="32" rule="BeanMembersShouldSerialize" ruleset="JavaBeans" package="experiment6" class="VirusTest" variable="c3" externalInfoUrl="https://pmd.github.io/pmd-5.5.2/pmd-java/rules/java/javabeans.html#BeanMembersShouldSerialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="16" endline="16" begincolumn="21" endcolumn="26" rule="BeanMembersShouldSerialize" ruleset="JavaBeans" package="experiment6" class="VirusTest" variable="answer" externalInfoUrl="https://pmd.github.io/pmd-5.5.2/pmd-java/rules/java/javabeans.html#BeanMembersShouldSerialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+</file>
+</pmd>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="experiment6.VirusTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2020-06-09T07:58:05" hostname="SC-201902161641" time="0.006">
+  <properties/>
+  <testcase name="test[0]" classname="experiment6.VirusTest" time="0.004"/>
+  <testcase name="test[1]" classname="experiment6.VirusTest" time="0.0"/>
+  <testcase name="test[2]" classname="experiment6.VirusTest" time="0.0"/>
+  <testcase name="test[3]" classname="experiment6.VirusTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
