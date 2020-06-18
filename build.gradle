@@ -22,6 +22,9 @@ configurations {
     defaultTestCompile.extendsFrom testCompile
     defaultTestImplementation.extendsFrom testImplementation
     defaultTestRuntime.extendsFrom testRuntime
+    cucumberRuntime {
+        extendsFrom testRuntime
+	}
 }
 
 repositories {
@@ -36,6 +39,7 @@ dependencies {
     testImplementation "org.junit.jupiter:junit-jupiter:$junitVersion"
     testCompile "org.mockito:mockito-core:$mockitoVersion"
     testCompile "org.assertj:assertj-core:$assertjVersion"
+    compile group: 'io.cucumber', name: 'cucumber-java', version: '6.0.0-RC2'
 }
 
 task defaultTest(type: Test) {
@@ -94,6 +98,17 @@ task staticAnalysis(type: GradleBuild) {
         'spotbugsTest',
         'spotbugsDefaultTest',
     ]
+}
+
+task cucumber() {
+    dependsOn assemble, compileTestJava
+    doLast {
+        javaexec {
+            main = "io.cucumber.core.cli.Main"
+            classpath = configurations.cucumberRuntime + sourceSets.main.output + sourceSets.test.output
+            args = ['--plugin', 'pretty', '--glue', 'nl.tudelft.jpacman.e2e.framework', 'src/test/resources']
+        }
+    }
 }
 
 mainClassName = 'nl.tudelft.jpacman.Launcher'
